@@ -26,52 +26,8 @@ This to-do list application allows users to manage their tasks through a console
 ## Code Structure
 
 ### `task.py`
-
-```python
-class Task:
-    def __init__(self, description, completed=False):
-        self.description = description
-        self.completed = completed
-
-    def __str__(self):
-        status = "Done" if self.completed else "Not Done"
-        return f"{self.description} - {status}"
-```
-
 ### `todolist.py`
-
-```python
-from task import Task
-
-class ToDoList:
-    def __init__(self):
-        self.tasks = []
-
-    def add_task(self, task):
-        self.tasks.append(task)
-
-    def remove_task(self, task):
-        self.tasks.remove(task)
-
-    def mark_task_completed(self, task):
-        task.completed = True
-
-    def display_tasks(self):
-        for task in self.tasks:
-            print(task)
-```
-
 ### `todo.py`
-
-```python
-from task import Task
-from todolist import ToDoList
-
-def main():
-    todo_list = ToDoList()
-
-    # ... (rest of the code)
-```
 
 ## Getting Started
 
