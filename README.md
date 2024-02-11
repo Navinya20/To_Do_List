@@ -1,4 +1,3 @@
-```markdown
 # To-Do List Application
 
 A simple console-based to-do list application implemented in Python. This project is designed to help beginners grasp fundamental programming concepts such as classes, file handling, and user interaction.
@@ -103,9 +102,4 @@ Follow the on-screen prompts to interact with the to-do list application. Choose
 
 Contributions are welcome! If you have ideas for improvements, new features, or bug fixes, please open an issue or submit a pull request.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-```
-
-Replace `"your-username"` with your actual GitHub username in the clone URL. Customize this README based on additional features or information you want to include.
